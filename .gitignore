@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Translations
+*.mo
+*.pot
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# pyenv
+venv/
+venv
+pyvenv.cfg
+.python-version
+
+# Pyre type checker
+.pyre/
+
+ckpt/
+ckpt
+*.pt
+.pt
+dataset/
+dataset
+.idea
+.gitattributes
+eval
