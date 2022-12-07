@@ -1,10 +1,10 @@
-# DPT-VO: Dense Prediction Transformer for Scale Estimation in Monocular Visual Odometry
+# CNN-VO: Visual Odometry for Autonomous UAVs in GNSS Contested Environments with Deep Learning
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aofrancani/KDD-BR22/blob/main/LICENSE)
 
 This is my implementation for the competition "[KDD-BR 2022 - Visual odometry for autonomous UAVs in GNSS contested environments](https://www.kaggle.com/competitions/kddbr-2022/overview)"
 
-<img src="imgs/odometry.png" width=100>
+<img src="imgs/odometry.png" width=600>
 
 The model architecture was based on a UNet encoder with a regression loss. The normalized features `altitude` and `delta` are concatenated in the input of the last multilayer perception. The solution had better performance compared to the two benckmarck solutions provided by the competition.
 
@@ -24,27 +24,27 @@ Then, the data structure should be as follows:
 |---KDD-BR22
     |---dataset
         |---train
-			|---000a3f777828d2cdbee98887561aa130.jpg
-			|---...
+		|---000a3f777828d2cdbee98887561aa130.jpg
+		|---...
         |---test
-			|---000a8e84b013655b832041a6f362e5c9.jpg
-			|---...
+		|---000a8e84b013655b832041a6f362e5c9.jpg
+		|---...
         |---public.csv
         |---sample_submission.csv		
 ```
 
 ## 2. Download Pre-trained Model and Logs
 Download my pre-trained model and save it somewhere in the `ckpt` directory: 
-- [ckpt:](https://drive.google.com/drive/folders/1vBIvgHW-cVK1a_k0aVENPrK-vR-elYm-?usp=share_link)
+- checkpoint: [Link to GoogleDrive](https://drive.google.com/drive/folders/1vBIvgHW-cVK1a_k0aVENPrK-vR-elYm-?usp=share_link)
 
 
 ## 3. Setup
-- Create a Python virtual environment and activate it:
+Create a Python virtual environment and activate it:
 ```
 python -m venv venv
 venv\Scripts\activate.bat
 ```
-- Install dependencies:
+Install dependencies:
 ```
 pip install -r requirements.txt
 ```
@@ -71,7 +71,8 @@ tensorboard --logdir <path_to_checkpoint>
 ```
 
 Training and Validation Loss:
-<img src="imgs/loss.png" width=100>
+
+<img src="imgs/loss.png" width=500>
 
 Evaluation Table (RMSE):
 
