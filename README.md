@@ -6,7 +6,7 @@ This is my solution for the competition "[KDD-BR 2022 - Visual odometry for auto
 
 <img src="imgs/odometry.png" width=600>
 
-The model architecture was based on a UNet encoder with a regression loss. The normalized features `altitude` and `delta` are concatenated in the input of the last multilayer perception. The solution had better performance compared to the two benckmarck solutions provided by the competition.
+The model architecture was based on a U-Net encoder with a regression loss. The normalized features `altitude` and `delta` are concatenated in the input of the last multilayer perception. The solution had better performance compared to the two benckmarck solutions achieved by the competition.
 
 
 ## 1. Dataset
