@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aofrancani/KDD-BR22/blob/main/LICENSE)
 
-This is my implementation for the competition "[KDD-BR 2022 - Visual odometry for autonomous UAVs in GNSS contested environments](https://www.kaggle.com/competitions/kddbr-2022/overview)"
+This is my solution for the competition "[KDD-BR 2022 - Visual odometry for autonomous UAVs in GNSS contested environments](https://www.kaggle.com/competitions/kddbr-2022/overview)"
 
 <img src="imgs/odometry.png" width=600>
 
