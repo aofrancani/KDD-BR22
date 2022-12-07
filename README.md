@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/aofrancani/KDD-BR22/blob/main/LICENSE)
 
-This is my solution for the competition "[KDD-BR 2022 - Visual odometry for autonomous UAVs in GNSS contested environments](https://www.kaggle.com/competitions/kddbr-2022/overview)"
+This is our solution (*MANGAng*) for the competition "[KDD-BR 2022 - Visual odometry for autonomous UAVs in GNSS contested environments](https://www.kaggle.com/competitions/kddbr-2022/overview)"
 
 <img src="imgs/odometry.png" width=600>
 
@@ -84,5 +84,6 @@ Evaluation Table (RMSE):
 | Guessing No Movement | 1.26870           | 1.26918            |
 
 
+Special thanks to the *MANGAng* teammates! Wish you all the best :) 
 
 
