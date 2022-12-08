@@ -34,7 +34,7 @@ Then, the data structure should be as follows:
 ```
 
 ## 2. Download Pre-trained Model and Logs
-Download my pre-trained model and save it somewhere in the `ckpt` directory: 
+Download our pre-trained model and save it somewhere in the `ckpt` directory: 
 - checkpoint: [Link to GoogleDrive](https://drive.google.com/drive/folders/1vBIvgHW-cVK1a_k0aVENPrK-vR-elYm-?usp=share_link)
 
 
@@ -54,7 +54,7 @@ Run `train_model.py` to start training:
 ```
 python train_model.py
 ```
-If you want to keep the training from a checkpoint, change the key `checkpoint_path` of the dictionary `args` in `train_model.py`.
+If you want to load a checkpoint to resume training, change the key `checkpoint_path` of the dictionary `args` in `train_model.py`.
 
 
 ## 5. Evaluation
